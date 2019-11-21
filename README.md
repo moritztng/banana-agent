@@ -52,7 +52,7 @@ Then, place the file in the `p1_navigation/` folder in the GitHub repository, an
 
 ## Training 
 
-I framed the problem as a Markov Decision Process. Hence, I was able to solve it with Reinforcement Learning. In particular I used Double-Q-Learning with dueling network architectures. I trained the agent in a Unity Environment with a Jupyter Notebook `p1_navigation\Train.ipynb`. You are not able to execute the Notebook, since I used it in a different Environment. However, you can review all of my code and all of the outputs. For more details take a look at `report.md`.
+I framed the problem as a Markov Decision Process. Hence, I was able to solve it with Reinforcement Learning. In particular I used Double-Q-Learning with dueling network architectures. I trained the agent in a Unity Environment with a Jupyter Notebook `p1_navigation\Train.ipynb`. You are not able to execute the Notebook, since I used it in a different Environment. However, you can review all of my code and all of the outputs. For more details take a look at [report](report.md).
 
 ## Testing 
 You are able to test the agent with the trained weigths by executing `p1_navigation\test.py`. 
