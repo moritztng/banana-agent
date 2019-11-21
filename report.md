@@ -1,6 +1,8 @@
 # Training Details
 ## Neural Network Architecture
-[Network](https://www.researchgate.net/profile/Liviu_Marina/publication/324080504/figure/fig2/AS:609451711164416@1522316019556/Deep-dueling-network-architecture-with-dual-streams-to-estimate-value-and-advantage.png)
+
+![Network](https://i.ytimg.com/vi/MItCZ6GK2JM/maxresdefault.jpg)
+
 I used a Dueling Neural Network for this MDP. Unlike the image, I did not use convolutions, since we are not operating on raw pixel data. 
 The input layer has 37 dimensions, since we have a state length of 37. After that two hidden layers with 64 dimensions each are following. 
 I used ReLU as the activation function for all hiden layers. Finally we have a hidden layer with 32 dimensions for the action values and another one with 32 dimensions for the state value. 
