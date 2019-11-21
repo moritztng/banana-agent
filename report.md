@@ -32,6 +32,10 @@ As it is common in Double-Q-Learning the target is calculated using both network
 We use a epsilon-greedy-policy, which is based on the action-values of the network with the fixed weights. 
 We start with `epsilon=1`, so the actions are equally distributed. With each episode epsilon is multiplied with a fixed decay rate until it reaches a fixed minimum value.
 
+## Evaluation
+I was able to solve the environment in 500 episodes. However, the variance is still pretty high. So it seems to be interesting to investigate, whether it is possible to keep the mean, while decreasing the variance.
+![Scores](scores.png)
+
 ## Future Work 
 I am not hopeless, that it is possible to make the agent benefit from prioritized experience replay. So I would definetely continue finetuning the hyperparameters to make it work. 
 In general I am convinced, that it is possible to solve the MDP in about 300 episodes by further finetuning the hyperparameters. 
