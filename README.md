@@ -32,16 +32,14 @@ To set up your python environment to run the code in this repository, follow the
 	activate drlnd
 	```
 	
-2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
-	
-3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+2. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
 ```bash
 git clone https://github.com/moritztng/banana-agent.git
 cd banana-agent/python
 pip install .
 ```
 
-4. Download the Unity Environment
+3. Download the Unity Environment
 Download the Unity Environment from one of the links below. You need only select the environment that matches your operating system:
 - Linux: [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
 - Mac OSX: [Mac](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
@@ -52,7 +50,7 @@ Then, place the file in the `p1_navigation/` folder in the GitHub repository, an
 
 ## Training 
 
-I framed the problem as a Markov Decision Process. Hence, I was able to solve it with Reinforcement Learning. In particular I used Double-Q-Learning with dueling network architectures. I trained the agent in a Unity Environment with a Jupyter Notebook `p1_navigation\Train.ipynb`. You are not able to execute the Notebook, since I used it in a different Environment. However, you can review all of my code and all of the outputs. For more details take a look at [report](report.md).
+I framed the problem as a Markov Decision Process. Hence, I was able to solve it with Reinforcement Learning. In particular I used Double-Q-Learning with dueling network architectures. I trained the agent in a Unity Environment with a Jupyter Notebook `p1_navigation\Train.ipynb`. You are not able to execute the Notebook, since I used it in a different environment. However, you can review all of my code and all of the outputs. For more details take a look at [report](report.md).
 
 ## Testing 
 You are able to test the agent with the trained weigths by executing `p1_navigation\test.py`. 
